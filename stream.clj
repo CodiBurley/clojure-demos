@@ -1,5 +1,7 @@
 ; Author: Codi Burley. Feb 29, 2016.
 
+; Streams implemented without the use of lazy-seq
+
 ; using lists
 (defn even-nums
   ([] (even-nums 0))
